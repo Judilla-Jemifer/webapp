@@ -1,0 +1,63 @@
+.hovertransition, .touch1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    background-color: cadetblue;
+    -webkit-transition: width 1s, height 1s, border-radius 1s; /* This is for Safari */
+    transition: width 1s, height 1s, border-radius 1s;
+    margin: 20px auto;
+
+}
+
+.hovertransition:hover, .touch1 {
+    width: 250px;
+    height: 250px;
+    border-radius: 0px;
+    background-color: #5367AB;
+}
+
+
+
+.ball {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: cadetblue;
+    text-align: center;
+    margin-bottom: 10px;
+    line-height: 75px;
+    font-size: 10px;
+    color: white;
+}
+
+.ease, .touchball1 {
+    -webkit-transition: margin-left 1s ease;
+    transition: margin-left 1s ease;
+}
+
+
+.linear, .touchball2 {
+    -webkit-transition: margin-left 1s linear;
+    transition: margin-left 1s linear;
+}
+
+.easein, .touchball3 {
+    -webkit-transition: margin-left 1s ease-in;
+    transition: margin-left 1s ease-in;
+}
+
+.easeout, .touchball4 {
+    -webkit-transition: margin-left 1s ease-out;
+    transition: margin-left 1s ease-out;
+}
+
+.easeinout, .touchball5 {
+    -webkit-transition: margin-left 1s ease-in-out;
+    transition: margin-left 1s ease-in-out;
+}
+
+.ball:active {
+    margin-left: 200px;
+}
+
+
