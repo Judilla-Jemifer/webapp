@@ -34,6 +34,12 @@ var xml = new XMLHttpRequest();
          var rate = data.rates.JPY;   
         } else if (curr == "PHP") {
          var rate = data.rates.PHP;   
+        } else if (curr == "COP") {
+         var rate = data.rates.COP;   
+        } else if (curr == "ALL") {
+         var rate = data.rates.ALL;   
+        } else if (curr == "AFN") {
+         var rate = data.rates.AFN;   
         }
     
         
@@ -44,4 +50,12 @@ var xml = new XMLHttpRequest();
        
         }
     
+}
+
+function addcurr() {
+    var newcurr = document.getElementById('addcurrency').value;
+    var c = document.getElementById("currency");
+    var option = document.createElement("option");
+    option.text = newcurr;
+    c.add(option);
 }
