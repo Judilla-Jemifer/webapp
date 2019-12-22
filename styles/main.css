@@ -533,4 +533,10 @@ select.dropdown {
   100% {background-color: lawngreen;}
 }
 
+button:hover {
+    border-radius: 5px;
+    background-color: dimgray;
+    transform: scaleX(1.05);
+}
+
 
