@@ -494,3 +494,12 @@ select.dropdown {
         left: 50%;
     }
 }
+
+@keyframes movetext {
+    from {
+        left: 35%;
+    }
+    to {
+        left: 50%;
+    }
+}
