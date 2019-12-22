@@ -249,6 +249,8 @@ var xml = new XMLHttpRequest();
           
         
          document.getElementById("output").innerHTML = amount + " " + txt + " = " +  conversion + " " + curr;
+        
+        document.getElementById("outputdiv").style.animation = "first 4s infinite";
        
         }
     

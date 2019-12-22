@@ -476,6 +476,12 @@ select.dropdown {
     font-size: 1em;
 }
 
+button:hover {
+    border-radius: px;
+    background-color: dimgray;
+    transform: scaleX(1.05);
+}
+
 .output {
     overflow: hidden;
 }
@@ -506,13 +512,7 @@ select.dropdown {
 
 .output {
     height: 50px;
-    background-color: lawngreen;
-    -webkit-animation-name: first; /* Safari 4.0 - 8.0 */
-    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
-    -webki-animation-iteration-count: infinite;
-    animation-name: first;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
+    background-color: lightgray;
     margin: 20px auto;
 
 }
@@ -533,10 +533,8 @@ select.dropdown {
   100% {background-color: lawngreen;}
 }
 
-button:hover {
-    border-radius: 5px;
-    background-color: dimgray;
-    transform: scaleX(1.05);
-}
+
+
+
 
 
