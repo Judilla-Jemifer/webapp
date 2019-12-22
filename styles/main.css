@@ -475,21 +475,27 @@ section.calcform p{
 select.dropdown {
     font-size: 1em;
 }
-
+/*--------css transform & transition here-----------*/
 button:hover {
-    border-radius: px;
     background-color: dimgray;
     transform: scaleX(1.05);
 }
 
+
 .output {
     overflow: hidden;
 }
-
+/*-----css animation and transition here---------------------*/
 .output p {
     position: absolute;
-    white-space: nowrap;
+    overflow: hidden;
     animation: movetext 10s infinite alternate ease-in-out;
+    transition: font-size 2s ease, color 2s ease;
+}
+
+.output p:hover {
+    font-size: 1.3em;
+    color: darkgray;
 }
 
 @-webkit-keyframes movetext {
