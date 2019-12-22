@@ -488,18 +488,49 @@ select.dropdown {
 
 @-webkit-keyframes movetext {
     from {
-        left: 35%;
+        left: 30%;
     }
     to {
-        left: 50%;
+        left: 45%;
     }
 }
 
 @keyframes movetext {
     from {
-        left: 35%;
+        left: 30%;
     }
     to {
-        left: 50%;
+        left: 45%;
     }
 }
+
+.output {
+    height: 50px;
+    background-color: lawngreen;
+    -webkit-animation-name: first; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 4s; /* Safari 4.0 - 8.0 */
+    -webki-animation-iteration-count: infinite;
+    animation-name: first;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin: 20px auto;
+
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes first {
+   0%   {background-color: lawngreen;}
+  25%  {background-color: lightgray;}
+  50%  {background-color: lightgray;}
+  100% {background-color: lawngreen;}
+}
+
+/* Standard syntax */
+@keyframes first {
+ 0%   {background-color: lawngreen;}
+  25%  {background-color: lightgray;}
+  50%  {background-color: lightgray;}
+  100% {background-color: lawngreen;}
+}
+
+

@@ -166,3 +166,21 @@ footer  {
    margin-right: 0%;  
    
 }
+    
+    @-webkit-keyframes movetext {
+    from {
+        left: 35%;
+    }
+    to {
+        left: 45%;
+    }
+}
+
+@keyframes movetext {
+    from {
+        left: 35%;
+    }
+    to {
+        left: 45%;
+    }
+}
