@@ -475,3 +475,22 @@ section.calcform p{
 select.dropdown {
     font-size: 1em;
 }
+
+.output {
+    overflow: hidden;
+}
+
+.output p {
+    position: absolute;
+    white-space: nowrap;
+    animation: movetext 10s infinite alternate ease-in-out;
+}
+
+@-webkit-keyframes movetext {
+    from {
+        left: 35%;
+    }
+    to {
+        left: 50%;
+    }
+}
